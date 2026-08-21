@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Website Under Construction</title>
+	<style>
+		:root {
+			font-family: Arial, sans-serif;
+			font-size: 24px;
+		}
+
+		body {
+			background: #ffffff;
+			color: #111111;
+			margin: 0;
+			padding: 8vw;
+		}
+
+		h1 {
+			font-size: clamp(3rem, 9vw, 7rem);
+			line-height: 1;
+			margin: 0 0 2rem;
+		}
+
+		p {
+			font-size: clamp(1.5rem, 4vw, 3rem);
+			line-height: 1.4;
+			margin: 1rem 0;
+		}
+
+		a {
+			color: #111111;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Welcome to NexonMC's Official Website!</h1>
+		<p>We are currently under construction. Please wait.</p>
+	</main>
+</body>
+</html>
