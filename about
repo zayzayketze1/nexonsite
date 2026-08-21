@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn more about the NexonMC Minecraft community.">
+    <title>About - NexonMC</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav class="wrap" aria-label="Main navigation">
+        <a class="brand" href="index"><span class="mark" aria-hidden="true">N</span> NexonMC</a>
+        <div class="nav-links">
+          <a href="about" aria-current="page">About</a>
+          <a href="rules">Rules</a>
+          <a href="status">Status</a>
+          <a href="https://discord.gg/vvBSQwyWc8" target="_blank" rel="noreferrer">Discord</a>
+        </div>
+        <a class="nav-join" href="https://discord.gg/vvBSQwyWc8" target="_blank" rel="noreferrer">Join the server</a>
+      </nav>
+    </header>
+
+    <main class="wrap page-content">
+      <p class="eyebrow">The NexonMC story</p>
+      <h1>Built for the long game.</h1>
+      <p class="intro">NexonMC is a Minecraft community for people who want more from a server than a quick visit. We are making a welcoming place for shared builds, new friendships, and worlds that keep getting better.</p>
+      <section class="content-grid" aria-label="About NexonMC">
+        <article>
+          <h2>Play together</h2>
+          <p>Bring your own style, whether that means designing a town, mapping an unexplored coast, or helping someone finish their first base.</p>
+        </article>
+        <article>
+          <h2>Keep it friendly</h2>
+          <p>The best servers are built by their communities. We value patience, creativity, and making space for everyone to enjoy the game.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer><div class="wrap">© 2026 NexonMC <span aria-hidden="true">·</span> Built for the next block.</div></footer>
+  </body>
+</html>

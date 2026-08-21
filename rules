@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The community rules for NexonMC.">
+    <title>Rules - NexonMC</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav class="wrap" aria-label="Main navigation">
+        <a class="brand" href="index"><span class="mark" aria-hidden="true">N</span> NexonMC</a>
+        <div class="nav-links">
+          <a href="about">About</a>
+          <a href="rules" aria-current="page">Rules</a>
+          <a href="status">Status</a>
+          <a href="https://discord.gg/vvBSQwyWc8" target="_blank" rel="noreferrer">Discord</a>
+        </div>
+        <a class="nav-join" href="https://discord.gg/vvBSQwyWc8" target="_blank" rel="noreferrer">Join the server</a>
+      </nav>
+    </header>
+
+    <main class="wrap page-content">
+      <p class="eyebrow">A few things we ask</p>
+      <h1>Keep the world worth sharing.</h1>
+      <p class="intro">These are simple guidelines, not a wall of fine print. Use good judgment, respect other players, and help keep NexonMC a place people want to return to.</p>
+      <ol class="rules-list">
+        <li><strong>Be respectful.</strong> Treat players and staff like people. Harassment, discrimination, and personal attacks are not welcome.</li>
+        <li><strong>Protect other players' work.</strong> Do not grief, steal, or use someone else's builds without permission.</li>
+        <li><strong>Play fair.</strong> No cheating, exploits, hacked clients, or anything that gives an unfair advantage.</li>
+        <li><strong>Keep chat comfortable.</strong> Avoid spam, excessive advertising, and content that makes the community difficult to enjoy.</li>
+        <li><strong>Ask when unsure.</strong> Reach out in Discord before acting if a situation or server rule is unclear.</li>
+      </ol>
+    </main>
+
+    <footer><div class="wrap">© 2026 NexonMC <span aria-hidden="true">·</span> Built for the next block.</div></footer>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Check the latest NexonMC server status and news.">
+    <title>Status - NexonMC</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav class="wrap" aria-label="Main navigation">
+        <a class="brand" href="index"><span class="mark" aria-hidden="true">N</span> NexonMC</a>
+        <div class="nav-links">
+          <a href="about">About</a>
+          <a href="rules">Rules</a>
+          <a href="status" aria-current="page">Status</a>
+          <a href="https://discord.gg/vvBSQwyWc8" target="_blank" rel="noreferrer">Discord</a>
+        </div>
+        <a class="nav-join" href="https://discord.gg/vvBSQwyWc8" target="_blank" rel="noreferrer">Join the server</a>
+      </nav>
+    </header>
+
+    <main class="wrap page-content">
+      <p class="eyebrow">Server status</p>
+      <h1>Good things are loading.</h1>
+      <p class="intro">NexonMC updates and launch news will be posted here as the server comes together. For the newest word from the team, join the Discord community.</p>
+      <section class="status-panel" aria-labelledby="status-heading">
+        <p class="status-label"><span aria-hidden="true">●</span> Development</p>
+        <h2 id="status-heading">The server is being prepared.</h2>
+        <p>We are laying the groundwork for a great first season. There is no public server address yet, but the community is open and the conversation is already underway.</p>
+        <a class="button button-primary" href="https://discord.gg/vvBSQwyWc8" target="_blank" rel="noreferrer">See updates on Discord</a>
+      </section>
+    </main>
+
+    <footer><div class="wrap">© 2026 NexonMC <span aria-hidden="true">·</span> Built for the next block.</div></footer>
+  </body>
+</html>

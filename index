@@ -1,75 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="null"
-    />
-    <title>Home - NexonMC</title>
-    <link rel="icon" type="image/webp" href="null" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="NexonMC is a friendly Minecraft community built for long-term adventures.">
+    <title>NexonMC | Find your next adventure</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="page-shell">
-      <header class="topbar">
-        <nav class="nav container">
-          <a href="index.html" class="brand" aria-label="NexonMC home">
-            <img class="brand-logo" src="NexonMC Logo" alt="NexonMC logo" width="32" height="32" />
-            <span>NexonMC</span>
-          </a>
-          <div class="nav-links">
-            <a href="home.html">Home</a>
+    <header>
+      <nav class="wrap" aria-label="Main navigation">
+        <a class="brand" href="index"><span class="mark" aria-hidden="true">N</span> NexonMC</a>
+        <div class="nav-links">
+          <a href="about">About</a>
+          <a href="rules">Rules</a>
+          <a href="status">Status</a>
+          <a href="https://discord.gg/vvBSQwyWc8" target="_blank" rel="noreferrer">Discord</a>
+        </div>
+        <a class="nav-join" href="https://discord.gg/vvBSQwyWc8" target="_blank" rel="noreferrer">Join the server</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <div>
+          <p class="eyebrow">A Minecraft community</p>
+          <h1>Make room for a new adventure.</h1>
+          <p class="intro">NexonMC is a place to build, explore, and spend a few good hours with people who love Minecraft as much as you do.</p>
+          <div class="actions">
+            <a class="button button-primary" href="https://discord.gg/vvBSQwyWc8" target="_blank" rel="noreferrer">Join us on Discord</a>
+            <a class="button-quiet" href="about">What is NexonMC?</a>
           </div>
-          <div class="nav-actions">
-            <a class="social-link" href="https://discord.gg/nulltarget&%nonexistent" target="_blank" aria-label="Discord">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.8 19.8 0 00-4.885-1.515a.074.074 0 00-.079.037c-.211.375-.445.864-.607 1.25a18.27 18.27 0 00-5.487 0c-.163-.386-.395-.875-.608-1.25a.077.077 0 00-.079-.037A19.763 19.763 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.08.08 0 00.087-.027c.461-.63.873-1.295 1.226-1.994a.076.076 0 00-.042-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.294.075.075 0 01.078-.01c3.928 1.793 8.18 1.793 12.062 0a.075.075 0 01.079.009c.12.098.246.198.373.295a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.076.076 0 00-.041.107c.36.699.772 1.365 1.225 1.994a.076.076 0 00.087.028 19.86 19.86 0 006.002-3.03.077.077 0 00.032-.057c.5-4.761-.838-8.895-3.549-12.577a.06.06 0 00-.031-.028zM8.02 15.33c-1.183 0-2.157-.965-2.157-2.156 0-1.193.964-2.157 2.157-2.157 1.193 0 2.156.964 2.156 2.157 0 1.19-.963 2.156-2.156 2.156zm7.975 0c-1.183 0-2.157-.965-2.157-2.156 0-1.193.964-2.157 2.157-2.157 1.193 0 2.157.964 2.157 2.157 0 1.19-.964 2.156-2.157 2.156z"/></svg>
-            </a>
-            <a class="button button-primary" href="join.py">Join Now</a>
-          </div>
-        </nav>
-      </header>
-	<style>
-		:root {
-			font-family: Arial, sans-serif;
-			font-size: 24px;
-		}
+        </div>
+        <div class="scene" aria-label="Abstract Minecraft landscape illustration">
+          <span class="pixel-sun" aria-hidden="true"></span>
+          <span class="hill" aria-hidden="true"></span>
+          <span class="scene-note">Build something worth returning to</span>
+        </div>
+      </section>
 
-		body {
-			background: #ffffff;
-			color: #111111;
-			margin: 0;
-			padding: 8vw;
-		}
+      <section class="strip wrap" aria-label="NexonMC highlights">
+        <div class="fact"><strong>Play your way</strong><span>Room for builders, explorers, and redstone minds.</span></div>
+        <div class="fact"><strong>Find your people</strong><span>A friendly community starts with one hello.</span></div>
+        <div class="fact"><strong>Stay in the loop</strong><span>Server news and events live on Discord.</span></div>
+      </section>
 
-		h1 {
-			font-size: clamp(3rem, 9vw, 7rem);
-			line-height: 1;
-			margin: 0 0 2rem;
-		}
+      <section class="about wrap" id="about">
+        <h2>Small server.<br>Big worlds.</h2>
+        <p class="about-copy">We are building NexonMC around the part of Minecraft that lasts: shared projects, unexpected journeys, and a community that makes logging on feel easy. The website is still growing, but the conversation is already happening on Discord.</p>
+      </section>
+    </main>
 
-		p {
-			font-size: clamp(1.5rem, 4vw, 3rem);
-			line-height: 1.4;
-			margin: 1rem 0;
-		}
-
-		a {
-			color: #111111;
-		}
-	</style>
-</head>
-<body>
-	<main>
-		<h1>Welcome to NexonMC's Official Website!</h1>
-		<p>We are currently under construction. Please wait.</p>
-	</main>
-</body>
+    <footer>
+      <div class="wrap">© 2026 NexonMC <span aria-hidden="true">·</span> Built for the next block.</div>
+    </footer>
+  </body>
 </html>
