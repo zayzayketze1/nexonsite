@@ -1,44 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Website Under Construction</title>
-	<style>
-		:root {
-			font-family: Arial, sans-serif;
-			font-size: 24px;
-		}
-
-		body {
-			background: #ffffff;
-			color: #111111;
-			margin: 0;
-			padding: 8vw;
-		}
-
-		h1 {
-			font-size: clamp(3rem, 9vw, 7rem);
-			line-height: 1;
-			margin: 0 0 2rem;
-		}
-
-		p {
-			font-size: clamp(1.5rem, 4vw, 3rem);
-			line-height: 1.4;
-			margin: 1rem 0;
-		}
-
-		a {
-			color: #111111;
-		}
-	</style>
-</head>
-<body>
-	<main>
-		<h1>Website Under Construction</h1>
-		<p>If you are here, please note that the website here is being built right now. We will release the website on our discord.</p>
-		<p>Join here: <a href="https://discord.gg/vvBSQwyWc8">https://discord.gg/vvBSQwyWc8</a></p>
-	</main>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url=index">
+    <meta name="robots" content="noindex">
+    <title>NexonMC</title>
+  </head>
+  <body>
+    <p>Opening <a href="index">NexonMC</a>...</p>
+  </body>
 </html>

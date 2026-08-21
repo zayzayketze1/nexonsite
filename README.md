@@ -1,5 +1,5 @@
-# Website Under Construction
+# NexonMC Website
 
-If you are here, please note that the website here is being built right now. We will release the website on our discord.
+The NexonMC website is live. Open `index` for the homepage, or join the community on Discord:
 
-Join here: https://discord.gg/vvBSQwyWc8
+https://discord.gg/vvBSQwyWc8
